@@ -116,6 +116,7 @@ footer{
 
 .hamburger{
     text-align: center;
+    display: none;
 }
 
 .fa-bars{
@@ -159,6 +160,10 @@ footer{
         /* justify-content: flex-start; */
         /* flex-direction: row; */
         
+    }
+    
+    .hamburger{
+    display: block;
     }
 }
 
